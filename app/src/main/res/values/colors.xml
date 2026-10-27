@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores Material Design 3 -->
+    <color name="on_surface">#FF1D1B20</color>
+    <color name="on_surface_variant">#FF49454F</color>
+    <color name="outline_variant">#FFCAC4D0</color>
+    <color name="surface_container">#FFF3EDF7</color>
+    <color name="secondary_container">#FFE8DEF8</color>
+    <color name="on_secondary_container">#FF4A4459</color>
+    <color name="surface_container_high">#FFECE6F0</color>
+    <color name="acento">#FF6750A4</color>
+
+    <!-- Colores propios del Catálogo -->
+    <color name="fondo_principal">#FFFFFFFF</color>
+    <color name="fondo_encabezado">#FFD9D9D9</color>
 </resources>

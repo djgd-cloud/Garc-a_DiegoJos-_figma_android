@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Garcia_DiegoJose_figma_android</string>
+    <string name="precio_blusa">19,99€</string>
+    <string name="nombre_blusa">Blusa</string>
+    <string name="chandal_spoti">Chandal Spotigy</string>
+    <string name="precio_spoti">9,99€</string>
+    <string name="ordenar_por">Ordenar por</string>
+    <string name="nombre_productos">Productos</string>
+    <string name="titulo_logo">Catálogo</string>
+    <string name="pijama_dibujos">Pijama Dibujos</string>
+    <string name="precio_pijama_dibujos">19,99€</string>
+    <string name="opcion_buscar">Buscar...</string>
+    <string name="filtro_edad_talla">Edad/Talla</string>
+    <string name="filtro_color">Color</string>
+    <string name="filtro_ordenar">Ordenar</string>
+    <string name="filtro_precio">Precio</string>
+    <string name="nav_Inicio">Inicio</string>
+    <string name="nav_Catálogo">Catálogo</string>
+    <string name="nav_Perfil">Perfil</string>
 </resources>

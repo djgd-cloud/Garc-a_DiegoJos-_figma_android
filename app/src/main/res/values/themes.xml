@@ -3,6 +3,11 @@
     <style name="Base.Theme.Garcia_DiegoJose_figma_android" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="android:colorBackground">@color/fondo_principal</item>
+        <item name="colorPrimary">@color/acento</item>
     </style>
 
     <style name="Theme.Garcia_DiegoJose_figma_android" parent="Base.Theme.Garcia_DiegoJose_figma_android" />
