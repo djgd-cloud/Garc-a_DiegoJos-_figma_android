@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/bg_navegacion"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+    <!-- Inicio -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="32dp"
+            android:src="@drawable/inicio"
+            android:background="@drawable/bg_nav_seleccionado"
+            android:padding="5dp"
+            android:contentDescription="@string/nav_inicio" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_inicio"
+            style="@style/TextoNavegacion" />
+
+    </LinearLayout>
+
+    <!-- Catálogo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:src="@drawable/catalogo"
+            android:contentDescription="@string/nav_catalogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_catalogo"
+            style="@style/TextoNavegacion" />
+
+    </LinearLayout>
+
+    <!-- Perfil -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:src="@drawable/perfil"
+            android:contentDescription="@string/nav_perfil" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_perfil"
+            style="@style/TextoNavegacion" />
+
+    </LinearLayout>
+
+</LinearLayout>
